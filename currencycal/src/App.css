@@ -1,57 +1,9 @@
-
-
-.App {
-height: 100vh;
-width: 100%;
-display: flex;
-align-items: center;
-flex-direction: column;
-padding-top: 120px;
-background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+body{
+    background-color: #161616;
+    color: #ddd;
+    padding: 50px;
 }
-.heading{
-font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-size: 10px;
-}
-.container{
-height: 400px;
-width: 600px;
-display: flex;
-justify-content: space-around;
-align-items: right;
-}
-input{
-padding-left: 10px;
-font-size: 10px;
-height:20px;
-}
-.middle,.right{
-width: 20px;
-}
-.switch{
-padding: 5px;
-margin-top: 25px;
-background-color: rgba(red, green, blue, alpha);
-border-radius: 50%;
-cursor: pointer;
-}
-.result{
-box-sizing: border-box;
-width: 400px;
-padding-left: 20px;
-}
-button{
-width: 100px;
-height: 30px;
-font-weight: bold;
-font-size: 20px;
-border: 2px solid hotpink;
-background-color: rgb(226, 252, 184);
-cursor: pointer;
-}
-p,h3, button, .switch{
-color:royalblue;
-}
-p{
-font-size: 30px;
+h1{
+    color: #eef;
+    text-align: center;
 }
