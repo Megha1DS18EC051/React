@@ -1,0 +1,21 @@
+*{
+  text-align:center
+
+}
+.group{
+  background-color:cadetblue;
+  text-align: center;
+  padding: 30px;
+
+
+}
+.foot{
+  margin-top: 30%;
+  background-color:cornflowerblue;
+  padding: 15px;
+}
+.style{
+  background-color:cornsilk;
+  color:brown;
+  padding: 10px;
+}

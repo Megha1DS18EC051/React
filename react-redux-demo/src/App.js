@@ -5,17 +5,13 @@ import {increment,decrement} from './Action/counter'
 import {Sig} from './Action/Sig'
 
 
+
 function App() {
  
   const counter=useSelector((state)=>state.counter)
   const signin=useSelector((state)=>state.signin)
  
   const dispatch=useDispatch();
-  
-
-  
-  
-  
   const inc=()=>{
     dispatch(increment())
   }
@@ -35,6 +31,7 @@ function App() {
 
 <h2>signin:{signin}</h2>
 <button onClick={sign}>new</button>
+
 
 
    </div>

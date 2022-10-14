@@ -1,0 +1,30 @@
+.head{
+  width: 50px;
+  height: 30;
+padding-right: 1200px;
+margin-top: 10px;
+}
+*{
+  text-align: center;
+}
+
+
+.group{
+  text-align: center;
+  background-color: aquamarine;
+  padding: 20px;
+
+
+}
+
+.style{
+  text-align: center;
+  background-color:cadetblue;
+  padding: 10px;
+  color:brown;
+
+}
+.foot{
+  background-color: chocolate;
+  margin-top: 20%;
+}
